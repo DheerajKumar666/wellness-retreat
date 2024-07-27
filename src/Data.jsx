@@ -49,24 +49,24 @@ const Data = ({currentData,filterData}) => {
 
   return (
     <>
-         <div className='parentApiDiv'>
+         
 
          
         {currentData?.map((value,id)=>{
         return (
          
          <div className='apidiv' key={id}>
-         <img src={value.image} height="100px" width="100px" />
+         <img src={value.image} />
           <h3>{value.title}</h3>
          <p> {value.description} </p>
          <p> Date: {dateFormatter(value.date)} </p>
          <p> Location: {value.location} </p> 
-         <p> Price: ₹{value.price}/- </p>      
+         <p> Price: ₹{value.price}/- </p>   
          </div> 
         
         )
      })}
-     </div>
+    
      {/* <br /> <br />
      <button onClick={handlePrevious} disabled={currentPage===1} >Previous</button>    
      <button disabled={currentPage===8} onClick={handleNext}>Next</button>

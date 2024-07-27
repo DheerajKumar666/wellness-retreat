@@ -9,8 +9,8 @@ const App = () => {
 
       <div className="contentData">
         <div className="divclass">
-          <img src="../images/bgimg.jpg" alt="Yoga" />
-
+          <img className="image" src="../images/bgimg.jpg" alt="Yoga"  />
+         
           <h2>Discover Your Inner Peace</h2>
 
           <h5>

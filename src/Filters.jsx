@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 import moment from "moment";
-import { debounce } from "lodash";
 
 const Filters = ({ data, setData, filterData, setFilterData, apiUrl }) => {
   const [selectDate, setSelectDate] = useState("");
@@ -116,7 +115,7 @@ const Filters = ({ data, setData, filterData, setFilterData, apiUrl }) => {
             onChange={handleSearch}
             className="searchcontainer"
             type="text"
-            placeholder="Search retreats by Title"
+            placeholder="Search retreats by title"
           />
          </div>
         
