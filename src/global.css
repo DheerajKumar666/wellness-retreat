@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 10px;
+  height: 50px;
+  background-color: rgb(27, 50, 82);
+}
+.navbar h1 {
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+.contentData{
+    margin: 15px;
+}
+
+.divclass {
+  margin-bottom: 10px;
+  height: fit-content;
+  background-color: rgb(224, 217, 207);
+  width: auto;
+  border-radius: 9px;
+}
+
+.div img {
+    width: 1830px;
+    padding: 10px;
+}
+
+.divclass h2 {
+  padding: 20px;
+  font-weight: 70;
+}
+.divclass h5 {
+  
+  padding: 10px;
+  font-weight: 20;
+}
+.divclass img {
+  display: block;
+  box-sizing: border-box;
+  width: inherit;
+  object-fit:cover;
+  background-position: center center;
+  border-image: 0px solid rgb(229, 231, 235);
+  border-radius: 7px;
+  margin: 20px;
+  height: 300px;
+}
+
+.filterData {
+margin-bottom: 15px;
+}
+
+.data{
+    margin-bottom: 20px;
+}
+
+.parentApiDiv {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+
+}
+
+
+.apidiv {
+  border: 0px rgb(229, 231, 235);
+  background-color: rgb(224, 217, 207);
+  display: inline-block;
+  width: 585px;
+  max-height: 250px;
+  border-radius: 8px;
+  padding: 15px;
+  align-self: stretch;
+}
+
+.apidiv img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.filtercontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 66%;
+}
+
+.filterBySearch {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filterDateAndTypeContainer{
+    display: flex;
+}
+
+.searchcontainer {
+  width: 400px;
+  background-color: rgb(27, 50, 82);
+  color: white;
+}
+
+.dateContainer {
+    color: white;
+    background-color: rgb(27, 50, 82);
+    height: 30px;
+    border-radius: 3px;
+    
+}
+
+.dateContainer option {
+    color: black;
+    background-color: white;
+    
+}
+
+.typeContainer {
+    color: white;
+    background-color: rgb(27, 50, 82);
+    height: 30px;
+    border-radius: 3px;
+}
+
+.typeContainer option {
+    color: black;
+    background-color: white;
+}
+
+.searchcontainer{
+    height: 30px;
+    border-radius: 3px;
+
+}
+
+.searchField {
+    align-content: center;
+}
+
+.searchField input::placeholder{
+    color: white;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+.buttonContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.buttonContainer button{
+   background-color: rgb(27, 50, 82);
+   color: white;
+   width: auto;
+   padding: 8px;
+   height: 40px;
+   border-radius: 8px;
+}
